@@ -1,0 +1,12 @@
+<h1 class="text-center">Meet the team</h1>
+
+<div class="text-center">
+  <ul class="list-inline">
+  <%  %w(Mohamed Albert Sebastian Ederik).sort.each do |member| %>
+    <li>
+    <%= image_tag "#{member}.png", class: "img-circle avatar-large"  %>
+      <h3><%= member.capitalize %></h3>
+    </li>
+    <% end %>
+  </ul>
+</div>
