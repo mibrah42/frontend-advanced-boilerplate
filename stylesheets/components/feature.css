@@ -1,0 +1,11 @@
+/* line 2, /Users/MohamedIbrahim/code/mibrah42/middleman_repo/source/stylesheets/components/feature.scss */
+.features img {
+  width: 100px; }
+/* line 5, /Users/MohamedIbrahim/code/mibrah42/middleman_repo/source/stylesheets/components/feature.scss */
+.features h2 {
+  font-size: 20px;
+  margin-bottom: 10px; }
+/* line 9, /Users/MohamedIbrahim/code/mibrah42/middleman_repo/source/stylesheets/components/feature.scss */
+.features p {
+  font-size: 15px;
+  font-weight: lighter; }

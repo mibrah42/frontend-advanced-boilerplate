@@ -1,0 +1,47 @@
+/* line 1, /Users/MohamedIbrahim/code/mibrah42/middleman_repo/source/stylesheets/components/card.scss */
+.card {
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 20px; }
+
+/* line 10, /Users/MohamedIbrahim/code/mibrah42/middleman_repo/source/stylesheets/components/card.scss */
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+/* line 15, /Users/MohamedIbrahim/code/mibrah42/middleman_repo/source/stylesheets/components/card.scss */
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px; }
+
+/* line 21, /Users/MohamedIbrahim/code/mibrah42/middleman_repo/source/stylesheets/components/card.scss */
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px; }
+  /* line 25, /Users/MohamedIbrahim/code/mibrah42/middleman_repo/source/stylesheets/components/card.scss */
+  .card-description h2 {
+    font-size: 22px; }
+  /* line 28, /Users/MohamedIbrahim/code/mibrah42/middleman_repo/source/stylesheets/components/card.scss */
+  .card-description p {
+    font-size: 15px; }
+
+/* line 34, /Users/MohamedIbrahim/code/mibrah42/middleman_repo/source/stylesheets/components/card.scss */
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0; }
+  /* line 42, /Users/MohamedIbrahim/code/mibrah42/middleman_repo/source/stylesheets/components/card.scss */
+  .card-link:hover {
+    opacity: 0.1; }
